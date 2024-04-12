@@ -1,7 +1,7 @@
 FROM debian:latest
 
-RUN sudo apt update && apt upgrade -y
-RUN sudo apt install git python3-pip ffmpeg -y
+RUN apt update && apt upgrade -y
+RUN apt install git python3-pip ffmpeg -y
 
 RUN mkdir /safone/
 WORKDIR /safone/
