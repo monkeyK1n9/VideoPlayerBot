@@ -81,6 +81,18 @@ $ . ./env
 $ python3 main.py
 ```
 
+## Self Host (with Docker)
+```bash
+# set the .env vars (they will be copied inside the container later on)
+cp .env.example .env
+
+# build the docker image
+$ docker build -t safone:latest -f ./Dockerfile .
+
+# to run
+$ docker run -ti safone:latest
+```
+
 ## License
 ```sh
 VideoPlayerBot, Telegram Video Chat Bot
