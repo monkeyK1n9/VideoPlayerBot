@@ -1,8 +1,29 @@
-tgcrypto
-requests
-youtube_dl
-ffmpeg-python
-python-dotenv
-pyrogram==1.4.16
+# direct dependencies
+requests==2.31.0
+ffmpeg-python==0.2.0
+python-dotenv==1.0.1
 pytgcalls==3.0.0.dev21
-youtube_search_python==1.4.9
+youtube-search-python==1.6.6
+
+# indirect dependencies
+anyio==4.3.0
+av==8.1.0
+certifi==2024.2.2
+charset-normalizer==3.3.2
+exceptiongroup==1.2.0
+future==1.0.0
+h11==0.14.0
+httpcore==1.0.5
+httpx==0.27.0
+idna==3.7
+numpy==1.26.4
+opencv-python-headless==4.5.5.62
+pyaes==1.6.1
+Pyrogram==2.0.106
+PySocks==1.7.1
+sniffio==1.3.1
+tgcalls==3.0.0.dev5
+TgCrypto==1.2.5
+typing_extensions==4.11.0
+urllib3==2.2.1
+youtube-dl==2021.12.17

@@ -1,4 +1,5 @@
 .env
+*env
 *.pyc
 *.raw
 *.log
@@ -6,4 +7,3 @@
 *.session-journal
 unknown_errors.txt
 test.py
-.env
