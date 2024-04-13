@@ -29,7 +29,7 @@ User = Client(
 )
 
 
-@User.on_message(filters.private & filters.incoming & ~filters.bot & ~filters.service & ~filters.me & ~filters.edited & ~filters.chat([777000, 454000]))
+@User.on_message(filters.private & filters.incoming & ~filters.bot & ~filters.service & ~filters.me & ~filters.chat([777000, 454000]))
 async def nopm(client, message):
     if REPLY_MESSAGE is not None:
         try:
