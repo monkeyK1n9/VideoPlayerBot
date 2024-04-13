@@ -67,6 +67,16 @@ $ cd VideoPlayerBot
 $ sudo apt-get install python3-pip ffmpeg
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
+
+$ cp .env.example .env
+# THen set all the env vars
+# as follow at section :  "Config Vars"
+
+$ source .env
+# or :
+$ . ./env
+# To set all env vars
+
 # <create .env variables appropriately>
 $ python3 main.py
 ```
